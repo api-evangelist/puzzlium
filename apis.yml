@@ -1,7 +1,23 @@
 aid: puzzlium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/puzzlium.png
 name: Puzzlium
-description: Puzzlium is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Puzzlium is a mobile puzzle platform and social network built around the tagline "Play.
+  Create. Compete." Founded in 2014 by veteran puzzle designers Serhiy Grabarchuk, Serhiy Grabarchuk Jr.,
+  Peter Grabarchuk, and Mehmet Murat Sevim, the iOS and Amazon Kindle app lets a community of hundreds
+  of thousands of solvers and creators play, generate, publish, and compete with interactive puzzles.
+  Based in San Jose, California and backed by 500 Startups (500 Global), Puzzlium is a consumer
+  application that does not publish a public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/puzzlium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Puzzles
+- Games
+- Gaming
+- Mobile
+- Consumer App
+- Social Network
+- iOS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/puzzlium-domain-security.yml
 - type: Website
   url: https://puzzlium.com
+- type: PrivacyPolicy
+  url: https://puzzlium.com/privacy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
